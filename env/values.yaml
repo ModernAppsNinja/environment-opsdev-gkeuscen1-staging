@@ -15,9 +15,11 @@ expose:
   config:
     domain: opsdev-gkeuscen1.modernapps.io
     exposer: Ingress
-    http: "true"
-    tlsacme: "false"
+    http: "false"
+    tlsSecretName: tls-opsdev-gkeuscen1-modernapps-io-p
+    tlsacme: "true"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
+  production: true
 jenkins:
   Servers:
     Global: {}
