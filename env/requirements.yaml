@@ -16,3 +16,6 @@ dependencies:
 - name: test26238
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
+- name: test26350
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
