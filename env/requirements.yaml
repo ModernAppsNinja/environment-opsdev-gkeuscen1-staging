@@ -10,6 +10,9 @@ dependencies:
 - name: jx-app-formio-lite
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
+- name: node-test-1150
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
 - name: test-gradle-821
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.2
