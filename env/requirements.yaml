@@ -22,6 +22,9 @@ dependencies:
 - name: test-gradle-app-26202
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
+- name: test-lag-021220-0958
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
 - name: test26235
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.1
