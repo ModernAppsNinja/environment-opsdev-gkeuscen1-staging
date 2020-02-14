@@ -16,6 +16,9 @@ dependencies:
 - name: node-test-1150
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.2
+- name: node-test-deploy
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
 - name: preview
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.413
